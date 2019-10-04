@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41ee11d1-89e4-4abf-a443-05643c76a256" name="Default" comment="" />
+    <list default="true" id="41ee11d1-89e4-4abf-a443-05643c76a256" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/swedbank/javagyk/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/swedbank/javagyk/Main.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/swedbank/javagyk/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
               <folding>
                 <element signature="e#94#95#0" expanded="true" />
                 <element signature="e#144#145#0" expanded="true" />
@@ -53,7 +55,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="814" />
     <option name="height" value="846" />
@@ -179,15 +181,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570173899101</updated>
-      <workItem from="1570173900891" duration="2041000" />
+      <workItem from="1570173900891" duration="2992000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2041000" />
+    <option name="totallyTimeSpent" value="2992000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="814" height="846" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="855" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -200,11 +202,11 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3342981" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.40583554" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1966581" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -230,7 +232,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/swedbank/javagyk/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
           <folding>
             <element signature="e#94#95#0" expanded="true" />
             <element signature="e#144#145#0" expanded="true" />
