@@ -5,7 +5,7 @@ public class Main {
         String name = "Arturas";
         String surname = "Mikaila";
         String jobRole = "Software Engineer";
-        System.out.println("Hello, I'm " + name + " " + surname + ", I'm " + jobRole);
-
+        System.out.println("Hello, I'm " + name + " " + surname +  ",\n" +
+                           "I'm " + jobRole + "!");
     }
 }
