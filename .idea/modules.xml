@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../JavaGYK/JavaGYK.iml" filepath="$PROJECT_DIR$/../JavaGYK/JavaGYK.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-gyk-day1.iml" filepath="$PROJECT_DIR$/java-gyk-day1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../JavaGYK/lt.swedbank.gyk2019.tasks.iml" filepath="$PROJECT_DIR$/../JavaGYK/lt.swedbank.gyk2019.tasks.iml" />
     </modules>
   </component>
 </project>
