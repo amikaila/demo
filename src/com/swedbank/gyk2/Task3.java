@@ -34,8 +34,6 @@ public class Task3 {
             System.out.println("MAX var3: " + intVariable3);
 
 
-
-
         String[] myArr = new String[2];
         myArr[0] = "one";
         System.out.println(myArr[1]);
