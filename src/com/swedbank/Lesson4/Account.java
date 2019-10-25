@@ -58,15 +58,16 @@ public class Account {
         this.accountType = accountType;
     }
 
-    public double getAccountBalanceFromEurToSek() {
+    public double getAccountBalanceFromEurToSek(double exchangeRate) {
         if (currency.equals("EUR")) {
-            balance = balance * 10.7341667;
-            System.out.println(balance = balance * 10.7341667);
+            balance = balance * exchangeRate;
+            System.out.println(balance = balance * exchangeRate);
         } else {
             System.out.println("Invalid currency");
         }
         return balance;
     }
+
     //    public Account() {
 //    }
 //

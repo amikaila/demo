@@ -2,6 +2,7 @@ package com.swedbank.Lesson4;
 
 public class CustomersApplication {
     public static void main(String[] args) {
+        final double SEK_EXCHANGE_RATE = 15.73567212;
 //        String firstCustomerName = "Vardas";
 //        String lastCustomerName = "Pavarde";
 //        String personalCustomerCode = "12345";
@@ -14,6 +15,7 @@ public class CustomersApplication {
         account.setBalance(345.45);
         account.setCurrency("EUR");
         account.setAccountType(AccountType.PRIVATE);
-        account.getAccountBalanceFromEurToSek();
+        double ret = account.getAccountBalanceFromEurToSek(SEK_EXCHANGE_RATE);
+        System.out.println("balance = " + ret);
     }
 }
