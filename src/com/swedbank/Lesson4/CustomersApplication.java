@@ -22,7 +22,11 @@ public class CustomersApplication {
         System.out.println(account.increaseAccountBalance(100));
         System.out.println(account.increaseAccountBalance("150"));
         System.out.println(account.increaseAccountBalance(190.09));
-
         System.out.println("Total balance: " + account.getBalance());
+
+        account.setAccountStatus(AccountStatus.ACTIVE);
+        System.out.println("Account status before closing: " + account.getAccountStatus());
+        AccountUtility.closeAccount(account);
+        System.out.println("Account status after closing: " + account.getAccountStatus());
     }
 }

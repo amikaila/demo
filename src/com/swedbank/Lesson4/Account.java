@@ -6,6 +6,7 @@ public class Account {
     public double balance;
     public String currency;
     public AccountType accountType;
+    public AccountStatus accountStatus;
 
     public Account() {
     }
@@ -16,6 +17,14 @@ public class Account {
         this.balance = balance;
         this.currency = currency;
         this.accountType = accountType;
+    }
+
+    public AccountStatus getAccountStatus() {
+        return accountStatus;
+    }
+
+    public void setAccountStatus(AccountStatus accountStatus) {
+        this.accountStatus = accountStatus;
     }
 
     public int getId() {
