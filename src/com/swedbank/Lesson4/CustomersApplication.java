@@ -17,5 +17,12 @@ public class CustomersApplication {
         account.setAccountType(AccountType.PRIVATE);
         double ret = account.getAccountBalanceFromEurToSek(SEK_EXCHANGE_RATE);
         System.out.println("balance = " + ret);
+
+        account.setBalance(100.55);
+        System.out.println(account.increaseAccountBalance(100));
+        System.out.println(account.increaseAccountBalance("150"));
+        System.out.println(account.increaseAccountBalance(190.09));
+
+        System.out.println("Total balance: " + account.getBalance());
     }
 }

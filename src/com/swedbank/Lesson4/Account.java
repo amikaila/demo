@@ -68,6 +68,18 @@ public class Account {
         return balance;
     }
 
+    public double increaseAccountBalance(int increaseAmount) {
+        return balance = balance + increaseAmount;
+    }
+
+    public double increaseAccountBalance(double increaseAmount) {
+        return balance = balance + increaseAmount;
+    }
+
+    public double increaseAccountBalance(String increaseAmount) {
+        return balance = balance + Double.parseDouble(increaseAmount);
+    }
+
     //    public Account() {
 //    }
 //
